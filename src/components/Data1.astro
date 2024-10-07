@@ -1,0 +1,14 @@
+---
+import "../styles/tailwind.css";
+import { Image } from "astro:assets";
+import Data1 from "../assets/images/Chart1.svg";
+---
+
+<div class="lg:grid grid-cols-2 gap-8 pt-12">
+  <div class="pt-20">
+    <p>Antallet af kvinder på it-uddannelser er steget langsomt de seneste år, men ikke hurtigt nok til at skabe varig forandring. For første gang i flere år er andelen af kvindelige ansøgere nu faldet en smule. Efter en stigning til 31,9% i 2023, er andelen i 2024 faldet til 29,8%. Dette fald kommer trods en intensiveret indsats fra it-uddannelserne for at tiltrække flere kvindelige studerende. Det ses som et alvorligt tilbageslag, da selv om der opnås resultater, er der fortsat en stor udfordring med at sikre bedre kønsdiversitet.</p>
+  </div>
+  <div>
+    <p><Image src={Data1} alt="Data" class="w-96 h-auto place-items-center" /></p>
+  </div>
+</div>
